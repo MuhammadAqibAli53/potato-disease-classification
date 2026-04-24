@@ -14,6 +14,7 @@ import image from "./bg.png";
 import { DropzoneArea } from 'material-ui-dropzone';
 import { common } from '@material-ui/core/colors';
 import Clear from '@material-ui/icons/Clear';
+import axios from "axios";
 
 
 
@@ -27,8 +28,6 @@ const ColorButton = withStyles((theme) => ({
     },
   },
 }))(Button);
-const axios = require("axios").default;
-
 const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
